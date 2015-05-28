@@ -1,0 +1,31 @@
+{
+  "name": "es-query",
+  "version": "0.0.0",
+  "description": "An utilitarian library for DOM manipulation using ECMAScript 7 Function Bind Syntax",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiodxa/es-query.git"
+  },
+  "keywords": [
+    "es7",
+    "es6",
+    "babel",
+    "dom",
+    "utilitary"
+  ],
+  "author": "Sergio Daniel Xalambrí <sergio@xalambri.com.ar> (http://sergio.xalambri.com.ar/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiodxa/es-query/issues"
+  },
+  "homepage": "http://sergio.xalambri.com.ar/es-query",
+  "devDependencies": {
+    "babel-eslint": "^3.1.9",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.12.0"
+  }
+}
