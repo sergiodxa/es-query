@@ -13,6 +13,7 @@ import find from './methods/find.js';
 import hasClass from './methods/has-class.js';
 import html from './methods/html.js';
 import is from './methods/is.js';
+import next from './methods/next.js';
 import text from './methods/text.js';
 
 export default {
@@ -31,5 +32,6 @@ export default {
   hasClass,
   html,
   is,
+  next,
   text
 };
