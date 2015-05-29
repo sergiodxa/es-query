@@ -18,6 +18,7 @@ import parent from './methods/parent.js';
 import prepend from './methods/prepend.js';
 import prev from './methods/prev.js';
 import remove from './methods/remove.js';
+import removeClass from './methods/remove-class.js';
 import text from './methods/text.js';
 
 export default {
@@ -41,5 +42,6 @@ export default {
   prepend,
   prev,
   remove,
+  removeClass,
   text
 };
