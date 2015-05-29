@@ -5,7 +5,7 @@ var gulp       = require('gulp');
 // y donde dejar los archivos generados
 var paths = {
   src: {
-    eslint: ['./modules/**/*.js', './index.js'],
+    eslint: ['./methods/**/*.js', './index.js'],
   }
 }
 
