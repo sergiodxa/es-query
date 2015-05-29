@@ -10,6 +10,7 @@ import each from './methods/each.js';
 import empty from './methods/empty.js';
 import filter from './methods/filter.js';
 import find from './methods/find.js';
+import hasClass from './methods/has-class.js';
 import html from './methods/html.js';
 import text from './methods/text.js';
 
@@ -26,6 +27,7 @@ export default {
   empty,
   filter,
   find,
+  hasClass,
   html,
   text
 };
