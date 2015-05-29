@@ -7,6 +7,7 @@ import clone from './methods/clone.js';
 import contains from './methods/contains.js';
 import each from './methods/each.js';
 import empty from './methods/empty.js';
+import filter from './methods/filter.js';
 
 export default {
   addClass,
@@ -17,5 +18,6 @@ export default {
   clone,
   contains,
   each,
-  empty
+  empty,
+  filter
 };
