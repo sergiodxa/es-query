@@ -3,6 +3,63 @@ An utilitarian library for DOM manipulation using ECMAScript 7 Function Bind Syn
 
 es-query is only compatible with IE8 or better.
 
+## How to use
+To use this library you need to install it with NPM using:
+```bash
+npm i -S es-query
+```
+Once you finish you can load it in your code with:
+```javascript
+import $ from 'es-query';
+```
+Or you can load only the required methods with:
+```javascript
+import { find, html, each } from 'es-query';
+```
+Then you can use it this way:
+```javascript
+document.querySelector('section')::$.find('p')::$.each(el => {
+  el::$.html('Hello, world!');
+});
+```
+Or if you only load some modules:
+```javascript
+document.querySelector('section')::find('p')::each(el => {
+  el::html('Hello, world!');
+});
+```
+The methods are made to work only with one element at time, so if you have an array of elements you has to use the method each() like in the example before.
+
+## List of methods
+All the methods works with the same syntax as jQuery.
+
+* addClass
+* after
+* append
+* attr
+* before
+* children
+* clone
+* contains
+* each
+* empty
+* filter
+* find
+* hasClass
+* html
+* is
+* next
+* off
+* on
+* parent
+* prepend
+* prev
+* removeClass
+* siblings
+* text
+* toggleClass
+* trigger
+
 ## License
 The MIT License (MIT)
 
