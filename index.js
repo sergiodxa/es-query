@@ -23,6 +23,7 @@ import remove from './methods/remove.js';
 import removeClass from './methods/remove-class.js';
 import text from './methods/text.js';
 import toggleClass from './methods/toggle-class.js';
+import trigger from './methods/trigger.js';
 
 export default {
   addClass,
@@ -49,5 +50,6 @@ export default {
   remove,
   removeClass,
   text,
-  toggleClass
+  toggleClass,
+  trigger
 };
