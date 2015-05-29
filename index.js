@@ -15,6 +15,7 @@ import html from './methods/html.js';
 import is from './methods/is.js';
 import next from './methods/next.js';
 import off from './methods/off.js';
+import on from './methods/on.js';
 import parent from './methods/parent.js';
 import prepend from './methods/prepend.js';
 import prev from './methods/prev.js';
@@ -41,6 +42,7 @@ export default {
   is,
   next,
   off,
+  on,
   parent,
   prepend,
   prev,
