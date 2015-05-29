@@ -3,4 +3,4 @@ function after (htmlString) {
   return this;
 }
 
-export default after();
+export default after;
