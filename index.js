@@ -15,6 +15,7 @@ import html from './methods/html.js';
 import is from './methods/is.js';
 import next from './methods/next.js';
 import parent from './methods/parent.js';
+import prepend from './methods/prepend.js';
 import text from './methods/text.js';
 
 export default {
@@ -35,5 +36,6 @@ export default {
   is,
   next,
   parent,
+  prepend,
   text
 };
