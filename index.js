@@ -5,6 +5,8 @@ import before from './methods/before.js';
 import children from './methods/children.js';
 import clone from './methods/clone.js';
 import contains from './methods/contains.js';
+import each from './methods/each.js';
+import empty from './methods/empty.js';
 
 export default {
   addClass,
@@ -13,5 +15,7 @@ export default {
   before,
   children,
   clone,
-  contains
+  contains,
+  each,
+  empty
 };
