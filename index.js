@@ -20,6 +20,7 @@ import prev from './methods/prev.js';
 import remove from './methods/remove.js';
 import removeClass from './methods/remove-class.js';
 import text from './methods/text.js';
+import toggleClass from './methods/toggle-class.js';
 
 export default {
   addClass,
@@ -43,5 +44,6 @@ export default {
   prev,
   remove,
   removeClass,
-  text
+  text,
+  toggleClass
 };
