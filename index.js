@@ -11,6 +11,7 @@ import empty from './methods/empty.js';
 import filter from './methods/filter.js';
 import find from './methods/find.js';
 import html from './methods/html.js';
+import text from './methods/text.js';
 
 export default {
   addClass,
@@ -25,5 +26,6 @@ export default {
   empty,
   filter,
   find,
-  html
+  html,
+  text
 };
