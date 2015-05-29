@@ -8,6 +8,7 @@ import contains from './methods/contains.js';
 import each from './methods/each.js';
 import empty from './methods/empty.js';
 import filter from './methods/filter.js';
+import find from './methods/find.js';
 
 export default {
   addClass,
@@ -19,5 +20,6 @@ export default {
   contains,
   each,
   empty,
-  filter
+  filter,
+  find
 };
