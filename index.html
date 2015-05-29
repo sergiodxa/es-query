@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Es-query by sergiodxa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Es-query</h1>
+      <h2 class="project-tagline">An utilitarian library for DOM manipulation using ECMAScript 7 Function Bind Syntax</h2>
+      <a href="https://github.com/sergiodxa/es-query" class="btn">View on GitHub</a>
+      <a href="https://github.com/sergiodxa/es-query/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/sergiodxa/es-query/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="es-query" class="anchor" href="#es-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>es-query</h1>
+
+<p>An utilitarian library for DOM manipulation using ECMAScript 7 Function Bind Syntax.</p>
+
+<p>es-query is only compatible with IE8 or better.</p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<p>To use this library you need to install it with NPM using:</p>
+
+<div class="highlight highlight-bash"><pre>npm i -S es-query</pre></div>
+
+<p>Once you finish you can load it in your code with:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-k">import</span> $ <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>es-query<span class="pl-pds">'</span></span>;</pre></div>
+
+<p>Or you can load only the required methods with:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-k">import</span> { find, html, each } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>es-query<span class="pl-pds">'</span></span>;</pre></div>
+
+<p>Then you can use it this way:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">document</span>.querySelector(<span class="pl-s"><span class="pl-pds">'</span>section<span class="pl-pds">'</span></span>)<span class="pl-k">::</span>$.<span class="pl-c1">find</span>(<span class="pl-s"><span class="pl-pds">'</span>p<span class="pl-pds">'</span></span>)<span class="pl-k">::</span>$.each(el <span class="pl-k">=&gt;</span> {
+  el<span class="pl-k">::</span>$.html(<span class="pl-s"><span class="pl-pds">'</span>Hello, world!<span class="pl-pds">'</span></span>);
+});</pre></div>
+
+<p>Or if you only load some modules:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">document</span>.querySelector(<span class="pl-s"><span class="pl-pds">'</span>section<span class="pl-pds">'</span></span>)<span class="pl-k">::</span><span class="pl-c1">find</span>(<span class="pl-s"><span class="pl-pds">'</span>p<span class="pl-pds">'</span></span>)<span class="pl-k">::</span>each(el <span class="pl-k">=&gt;</span> {
+  el<span class="pl-k">::</span>html(<span class="pl-s"><span class="pl-pds">'</span>Hello, world!<span class="pl-pds">'</span></span>);
+});</pre></div>
+
+<p>The methods are made to work only with one element at time, so if you have an array of elements you has to use the method each() like in the example before.</p>
+
+<h2>
+<a id="list-of-methods" class="anchor" href="#list-of-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>List of methods</h2>
+
+<p>All the methods works with the same syntax as jQuery.</p>
+
+<ul>
+<li>addClass</li>
+<li>after</li>
+<li>append</li>
+<li>attr</li>
+<li>before</li>
+<li>children</li>
+<li>clone</li>
+<li>contains</li>
+<li>each</li>
+<li>empty</li>
+<li>filter</li>
+<li>find</li>
+<li>hasClass</li>
+<li>html</li>
+<li>is</li>
+<li>next</li>
+<li>off</li>
+<li>on</li>
+<li>parent</li>
+<li>prepend</li>
+<li>prev</li>
+<li>removeClass</li>
+<li>siblings</li>
+<li>text</li>
+<li>toggleClass</li>
+<li>trigger</li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The MIT License (MIT)</p>
+
+<p>Copyright (c) 2015 Sergio Daniel Xalambrí</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/sergiodxa/es-query">Es-query</a> is maintained by <a href="https://github.com/sergiodxa">sergiodxa</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48432002-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
+
