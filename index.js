@@ -14,6 +14,7 @@ import hasClass from './methods/has-class.js';
 import html from './methods/html.js';
 import is from './methods/is.js';
 import next from './methods/next.js';
+import parent from './methods/parent.js';
 import text from './methods/text.js';
 
 export default {
@@ -33,5 +34,6 @@ export default {
   html,
   is,
   next,
+  parent,
   text
 };
