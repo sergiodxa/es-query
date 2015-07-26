@@ -1,5 +1,5 @@
-var eslint     = require('gulp-eslint');
-var gulp       = require('gulp');
+var eslint = require('gulp-eslint');
+var gulp   = require('gulp');
 
 // rutas de donde leer archivos en las distintas tareas
 // y donde dejar los archivos generados
