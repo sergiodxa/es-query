@@ -1,4 +1,6 @@
 # es-query
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 An utilitarian library for DOM manipulation using ECMAScript 7 Function Bind Syntax.
 
 es-query is only compatible with IE8 or better.
